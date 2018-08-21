@@ -280,25 +280,73 @@ If you have any questions about this project or the material we have covered, pl
     }
   body{
     font-size: 15px;
-  }
-  }
+    }
+}
 
 @media (min-width:768px){
   body{
     line-height: 26px;
     font-size: 13px;
   }
-
+  .work{
+    width: 259px;
+  }
   .auth-image{
     width: 226px;
   }
   .main-section{
     width: 95%;
   }
-}
-@media (min-width:640x){
-  p{
-    
-  
+  #main-container {
+    padding-top: 6px;
+    min-height: calc(152vh - 84px);
+    }
+    #masthead{
+    position: static;
+    }
   }
+
+@media (max-width:640px) {
+  .main-section {
+    float: left;
+    width: 97%;
+    }
+  
+  body{
+      font-size: 19px;
+      line-height: 43px;
+    }
+  .auth-image{
+      width: 543px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+     }
+   #masthead{
+      position: static;
+     }
+
+     /*  why is it crazy that if you put a negative number on this padding, the other class container properties takes place */
+   #main-container {
+      padding-top: 1px;     
+    }
+
+    #logo {
+      float: left;
+      width: 624px;
+  }
+
+  nav {
+    
+    margin-right: 193px
+  }
+  .work {
+    
+    width: 547px
+  }
+
 }
+
+
+
+
