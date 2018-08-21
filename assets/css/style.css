@@ -285,8 +285,15 @@ If you have any questions about this project or the material we have covered, pl
 
 @media (min-width:768px){
   body{
-    line-height: 18px;
-  
+    line-height: 26px;
+    font-size: 13px;
+  }
+
+  .auth-image{
+    width: 226px;
+  }
+  .main-section{
+    width: 95%;
   }
 }
 @media (min-width:640x){
