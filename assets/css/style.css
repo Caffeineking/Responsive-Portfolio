@@ -270,18 +270,22 @@ If you have any questions about this project or the material we have covered, pl
 
 @media (min-width:980px){
   .main-section{  
-    max-width: 680px; 
-  
-  }
+    max-width: 638px;   
+    }
   #masthead{
     position: static;
-  }
+    }
   #main-container {
     padding-top: 19px;
-}
+    }
+  body{
+    font-size: 15px;
+  }
+  }
+
 @media (min-width:768px){
-  p{
-    
+  body{
+    line-height: 18px;
   
   }
 }
@@ -291,4 +295,3 @@ If you have any questions about this project or the material we have covered, pl
   
   }
 }
-
